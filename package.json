@@ -1,0 +1,17 @@
+{
+  "name": "matailmu-cli",
+  "version": "0.0.5",
+  "description": "Module Nodejs untuk Matailmu",
+  "main": "./lib/index.js",
+  "bin": {
+    "matailmu": "bin/matailmu.js"
+  },
+  "author": "Afief Yona Ramadhana",
+  "license": "ISC",
+  "preferGlobal": "true",
+  "dependencies": {
+    "better-console": "^1.0.0",
+    "read": "^1.0.7",
+    "request": "^2.79.0"
+  }
+}
